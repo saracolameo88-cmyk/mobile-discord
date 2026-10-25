@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 512px;
+    /* O il colore di sfondo scuro di Discord che preferisci */
+    font-family: sans-serif;
+    /* Poi metteremo il font corretto se serve */
+    margin: 0 auto;
+    border: 1px dashed gray;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.contenitore {
+    position: relative;
+    background-color: #0d042c;
+    padding: 30px 40px;
+
+    img,
+    video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: rgb(1, 38, 71);
+}
+
+.logo {
+    width: 110px;
+}
